@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use VANE in your research, please cite the paper below."
+title: "VANE Project Page"
+type: software
+authors:
+  - given-names: Hongjin
+    family-names: Ji
+    affiliation: The Chinese University of Hong Kong, Shenzhen
+  - given-names: Guoyang
+    family-names: Xia
+    affiliation: Beijing University of Posts and Telecommunications
+  - given-names: Luoyang
+    family-names: Sun
+    affiliation: Institute of Automation, Chinese Academy of Sciences
+  - given-names: Fangxiang
+    family-names: Feng
+    affiliation: Beijing University of Posts and Telecommunications
+  - given-names: Lei
+    family-names: Ren
+    affiliation: Li Auto Inc.
+version: 2
+date-released: 2026-08-16
+url: "https://mindvla-team.github.io/VANE/"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "VANE: Reliable Test-Time Training for Vision-Language-Action Models via Future Visual Representation Prediction"
+  authors:
+    - given-names: Hongjin
+      family-names: Ji
+    - given-names: Guoyang
+      family-names: Xia
+    - given-names: Luoyang
+      family-names: Sun
+    - given-names: Fangxiang
+      family-names: Feng
+    - given-names: Lei
+      family-names: Ren
+  journal: "arXiv preprint arXiv:2608.09448"
+  year: 2026
+  url: "https://arxiv.org/abs/2608.09448v2"

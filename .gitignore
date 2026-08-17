@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local preview and generated files
+__pycache__/
+*.pyc
+.cache/
+
+# Keep the release artifacts tracked:
+#   report/VANE.pdf
+#   assets/vane_overview.pdf
+#   assets/vane_overview.svg
+#   assets/*.png
