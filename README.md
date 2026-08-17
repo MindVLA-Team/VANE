@@ -77,18 +77,6 @@ AGV-TTT triggers backward optimization on only 1.3% of eligible frames. Only 19.
 
 VANE's gains remain task- and embodiment-dependent. On the common three-task Google Robot scope, QwenPi improves from 71.7% to 76.7%, while QwenWPI decreases from 73.6% to 72.4%. On the complete four-task scope, QwenPi improves from 70.7% to 71.7% and QwenWPI improves from 64.6% to 70.4%. The benefit therefore depends on task composition, so we treat Google Robot as a boundary and scope test rather than evidence of universal dominance. Full task-level VM/VA results appear in Tables 4–5 of the paper.
 
-## Project Page
-
-This repository hosts the paper, figures, and static project website. The website is implemented with dependency-free HTML, CSS, and JavaScript and can be served directly through GitHub Pages.
-
-To preview locally:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
 ## Citation
 
 ```bibtex
