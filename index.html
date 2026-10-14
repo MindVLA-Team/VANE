@@ -34,6 +34,7 @@
         <span>VANE</span>
       </a>
       <div class="nav-links">
+        <a href="#video">Video</a>
         <a href="#overview">Overview</a>
         <a href="#method">Method</a>
         <a href="#results">Results</a>
@@ -90,6 +91,23 @@
           <figcaption id="teaser-caption">
             <strong>VANE at a glance.</strong> MoLP routes task-dependent corrections, WPI predicts future visual consequences, and AGV-TTT validates each candidate before deployment.
             <a class="figure-download" href="assets/vane_overview.pdf">Open vector PDF</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="video">
+      <div class="shell">
+        <div class="section-heading narrow">
+          <p class="section-kicker">Video</p>
+          <h2>Validated adaptation recovers where frozen prompts stall.</h2>
+        </div>
+        <figure class="paper-figure teaser-card video-card">
+          <video src="assets/VANE.mp4" poster="assets/vane_video_poster.jpg" controls preload="none" playsinline>
+            Your browser does not support embedded video. <a href="assets/VANE.mp4">Download the clip</a> instead.
+          </video>
+          <figcaption>
+            <strong>Real-robot SO-101 spatial-shift task.</strong> With a frozen prompt the policy stalls at the shifted layout (left); VANE validates and commits an adaptation, then completes approach, grasp, lift, and placement (right).
           </figcaption>
         </figure>
       </div>

@@ -372,6 +372,13 @@ sup {
   text-align: center;
 }
 
+.video-card video {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  background: #0e1513;
+}
+
 .section {
   padding: 104px 0;
   scroll-margin-top: 64px;
