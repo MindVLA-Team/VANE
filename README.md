@@ -25,6 +25,14 @@ Hongjin Ji<sup>1,5,*</sup>&nbsp;&nbsp; Guoyang Xia<sup>2,5,*</sup>&nbsp;&nbsp; L
   <a href="assets/vane_overview.pdf"><img src="assets/vane_overview.svg" width="100%" alt="VANE framework overview"></a>
 </p>
 
+## Demo Video
+
+<p align="center">
+  <a href="https://github.com/MindVLA-Team/VANE/blob/main/assets/VANE.mp4"><img src="assets/vane_video_poster.jpg" width="100%" alt="VANE real-robot comparison video — click to play"></a>
+</p>
+
+Real-robot SO-101 spatial-shift task: with a frozen prompt the policy stalls at the shifted layout (left); VANE validates and commits an adaptation, then completes approach, grasp, lift, and placement (right). Click the image to play the full video (127 s), or watch it on the [project page](https://mindvla-team.github.io/VANE/#video).
+
 ## TL;DR
 
 VANE is a reliable test-time training framework for vision-language-action models. It uses a context-routed prompt bank to represent task-dependent corrections, future visual representations as label-free supervision, and a proposal-validation-commit protocol that keeps candidate updates away from the live controller until future evidence supports them.
